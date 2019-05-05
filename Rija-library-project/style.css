@@ -1,43 +1,43 @@
 body{
-    font-family: "Comic Sans MS", cursive, sans-serif;
+  font-family: "Comic Sans MS", cursive, sans-serif;
 }
 #nav {
-	background-color: steelblue;
-    list-style-type: none;
-    overflow: hidden;
-	margin: 0;
-	padding: 0;
-	text-align: center;
+  background-color: steelblue;
+  list-style-type: none;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  text-align: center;
 }
 	
 #nav li {
-	display: inline;
-    padding-right: 70px;
+  display: inline;
+  padding-right: 70px;
 }
 
 #nav a {
-	text-decoration: none;
-	font-family: Cambria, serif;
-	font-size: 20px;
-	font-style: normal;
-	font-weight: bold;
-	text-transform: normal;
-	letter-spacing: normal;
-	line-height: 1.3em;
-	color: white;
+  text-decoration: none;
+  font-family: Cambria, serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: bold;
+  text-transform: normal;
+  letter-spacing: normal;
+  line-height: 1.3em;
+  color: white;
 }
 
 #nav a:hover {
-	text-decoration: none;
-	font-family: Cambria, serif;
-	font-size: 20px;
-	font-style: normal;
-	font-weight: bold;
-	text-transform: normal;
-	letter-spacing: normal;
-	line-height: 1.3em;
-	color: black;
-    background-color: white;
+  text-decoration: none;
+  font-family: Cambria, serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: bold;
+  text-transform: normal;
+  letter-spacing: normal;
+  line-height: 1.3em;
+  color: black;
+  background-color: white;
 }
 .search-container{
   width: 500px;
@@ -74,22 +74,22 @@ input#search-bar{
   float: right;
   width: 75px;
   height: 75px;
-  top: -62px;
-  right: -45px;
+  top: -70px;
+  right: -10px;
 }
 .headingone{
-    font-family: 'Barrio';
-    font-size: 50px;
+  font-family: 'Barrio';
+  font-size: 50px;
 }
 a {
-    text-decoration: none;
-    color: brown;
+  text-decoration: none;
+  color: brown;
 }
 footer{
-    color: white;
-    text-align: center;
-    background: steelblue;
-    padding: 0.5rem;
+  color: white;
+  text-align: center;
+  background: steelblue;
+  padding: 0.5rem;
     
 }
 .column {
@@ -106,8 +106,8 @@ footer{
 .login {
   background-color: #4CAF50; /* Green */
   border: none;
-border-radius: 6px;
-    padding: 12px 28px;
+  border-radius: 6px;
+  padding: 12px 28px;
   color: white;
   text-align: center;
   text-decoration: none;
@@ -117,6 +117,15 @@ border-radius: 6px;
   cursor: pointer;
 }
 hr{
-    border: 3px solid skyblue;
-    display: block;
+  border: 3px solid skyblue;
+  display: block;
+}
+
+input[type=text], input[type=password] {
+  width: 30%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
 }
