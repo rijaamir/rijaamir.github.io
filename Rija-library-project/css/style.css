@@ -1,0 +1,120 @@
+body{
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  background-color: aliceblue;
+}
+#nav {
+  background-color: steelblue;
+  list-style-type: none;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+	
+#nav li {
+  display: inline;
+  padding-right: 70px;
+}
+
+#nav a {
+  text-decoration: none;
+  font-family: Cambria, serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: bold;
+  text-transform: normal;
+  letter-spacing: normal;
+  line-height: 1.3em;
+  color: white;
+}
+
+#nav a:hover {
+  text-decoration: none;
+  font-family: Cambria, serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: bold;
+  text-transform: normal;
+  letter-spacing: normal;
+  line-height: 1.3em;
+  color: black;
+  background-color: white;
+}
+
+#nav a.active{
+  background-color: white;
+  color: black;
+}
+.search-container{
+  width: 500px;
+}
+
+input#search-bar{
+  width: 500px;;
+  height: 45px;
+  padding: 0 20px;
+  font-size: 1rem;
+  border: 1px solid #D0CFCE;
+  outline:none;  
+ }
+
+.search-icon{
+  position: relative;
+  float: right;
+  width: 75px;
+  height: 75px;
+  top: -70px;
+  right: -10px;
+}
+.headingone{
+  font-family: 'Barrio';
+  font-size: 50px;
+}
+a {
+  text-decoration: none;
+  color: brown;
+}
+footer{
+  color: white;
+  text-align: center;
+  background: steelblue;
+  padding: 0.5rem;
+    
+}
+.column {
+  float: left;
+  width: 30%;
+  padding: 20px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.login {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  border-radius: 6px;
+  padding: 12px 28px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 2px 2px;
+  cursor: pointer;
+}
+hr{
+  border: 3px solid skyblue;
+  display: block;
+}
+
+input[type=text], input[type=password] {
+  width: 30%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
