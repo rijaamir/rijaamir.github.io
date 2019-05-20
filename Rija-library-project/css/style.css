@@ -1,6 +1,5 @@
 body{
   font-family: "Comic Sans MS", cursive, sans-serif;
-  background-color: aliceblue;
 }
 #nav {
   background-color: steelblue;
@@ -81,17 +80,10 @@ footer{
   padding: 0.5rem;
     
 }
-.column {
-  float: left;
-  width: 30%;
-  padding: 20px;
+.search-footer{
+    margin-top: 1100px;
 }
 
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
 .login {
   background-color: #4CAF50; /* Green */
   border: none;
@@ -109,7 +101,6 @@ hr{
   border: 3px solid skyblue;
   display: block;
 }
-
 input[type=text], input[type=password] {
   width: 30%;
   padding: 12px 20px;
@@ -117,4 +108,47 @@ input[type=text], input[type=password] {
   display: inline-block;
   border: 1px solid #ccc;
   box-sizing: border-box;
+}
+section.books {
+  float: left; 
+  width: 1250px;
+  border-right: 1px solid dodgerblue;
+}
+article {
+  clear: both; 
+  overflow: auto; 
+  width: 100%;
+}
+hgroup {
+  margin-top: 40px;
+}
+figure {
+  float: left;
+  width: 290px;
+  padding: 5px;
+  margin: 20px;
+} 
+figcaption {
+  font-size: 90%;
+  text-align: left;}
+  
+aside {
+  width: 230px;
+  float: left;
+  padding: 0px 0px 0px 20px;
+}
+
+aside section a {
+  display: block;
+  padding: 10px;
+  border-bottom: 1px solid #eeeeee;
+  color: steelblue;
+}
+ 
+aside section a:hover {
+  color: steelblue;
+  background-color: lightcyan;
+}
+img.image-center{
+    border: 15px solid steelblue;
 }
