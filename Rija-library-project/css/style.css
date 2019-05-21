@@ -1,5 +1,6 @@
 body{
   font-family: "Comic Sans MS", cursive, sans-serif;
+    /* Will be changing to this "Chivo", sans-serif;*/
 }
 #nav {
   background-color: steelblue;
@@ -17,7 +18,7 @@ body{
 
 #nav a {
   text-decoration: none;
-  font-family: Cambria, serif;
+  font-family: "Comic Sans MS", cursive, sans-serif;
   font-size: 20px;
   font-style: normal;
   font-weight: bold;
@@ -29,7 +30,7 @@ body{
 
 #nav a:hover {
   text-decoration: none;
-  font-family: Cambria, serif;
+  font-family: "Comic Sans MS", cursive, sans-serif;
   font-size: 20px;
   font-style: normal;
   font-weight: bold;
