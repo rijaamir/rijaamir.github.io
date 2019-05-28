@@ -1,6 +1,6 @@
 body{
-  font-family: "Comic Sans MS", cursive, sans-serif;
-    /* Will be changing to this "Chivo", sans-serif;*/
+  font-family: 'Roboto', sans-serif;
+    /* Will be changing to this "Roboto", sans-serif;*/
 }
 #nav {
   background-color: steelblue;
@@ -18,7 +18,6 @@ body{
 
 #nav a {
   text-decoration: none;
-  font-family: "Comic Sans MS", cursive, sans-serif;
   font-size: 20px;
   font-style: normal;
   font-weight: bold;
@@ -30,7 +29,6 @@ body{
 
 #nav a:hover {
   text-decoration: none;
-  font-family: "Comic Sans MS", cursive, sans-serif;
   font-size: 20px;
   font-style: normal;
   font-weight: bold;
@@ -97,6 +95,7 @@ footer{
   font-size: 16px;
   margin: 2px 2px;
   cursor: pointer;
+  font-family: 'Roboto', sans-serif;
 }
 hr{
   border: 3px solid skyblue;
