@@ -2,121 +2,145 @@
 <html>
     <head>
         <meta charset="utf-8">
-            <title>Search</title>
-            <meta name="description" content="Search Library Catalog">
-            <link rel="stylesheet" type="text/css" href="../css/style.css">
-            <link href='https://fonts.googleapis.com/css?family=Barrio' rel='stylesheet'>
-            <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+        <title>Search</title>
+        <meta name="description" content="Search Library Catalog">
+        <link rel="stylesheet" type="text/css" href="../css/style.css">
+        <link href='https://fonts.googleapis.com/css?family=Barrio' rel='stylesheet'>
+        <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
     </head>
-    <body>
-        
-        <div>
-           <center> 
-               <a href="../index.html">
-                <header class="headerone">
-                    <img src="../images/icon.png" style="display:inline" width="40px;" alt="library icon"/>
-                    <h1 class="headingone" style="display:inline">The Pebble's Library</h1>
-                    <a href ="login.html"><button class ="login" href="subpages/login.html" style="float: right;">Login</button></a>
-                </header> 
-                
-            </a>
-               </center>
-            
-        </div>
-        <br/>
-        
-        <nav id="nav">
-            <ul>
-                <li><a href="../index.html">Home</a></li> 
-                <li><a class="active" href="search.html">Search</a></li>
-                <li><a href="borrow.html">Borrowing &amp; Fees</a></li> 
-                <li><a href="login.html">My Account</a></li>
-                <li><a href="about.html">About Us</a></li>
-            </ul>
-        </nav>
-        
-        <center><h2> Search the widest books collections! </h2>
-        
-             <form class="search-container" >
-                <input type="text" id="search-bar" placeholder="Search...">
-                <a href="search.html"><img class="search-icon" src="http://www.endlessicons.com/wp-content/uploads/2012/12/search-icon.png" alt="Search icon"></a>
-              </form>
-                <br/>
+    <body class="container">
+        <div class="container main-content">
+            <div>
+                <center> 
+                    <a class="headingone" href="../index.html">
+                        <header>
+                            <img src="../images/icon.png" style="display:inline" width="40px;" alt="library icon"/>
+                            <h1 class="headingone" style="display:inline">The Pebble's Library</h1>
+                            <a href ="login.html"><button id="login" class ="btn btn-success btn-lg" style="float: right;">Login</button></a>
+                        </header> 
 
-        </center>
-        
-        <p><em>Suggested Books:</em></p>
-        <div>
-            
-        <section class="books">
-            <article>
-                <figure>
-                    <img src="../images/book1.jpg" alt="Twinkle" style="width:200px;">
-                </figure>
-                <hgroup>
-                    <h2>Twinkle: The Funny Unicorn</h2>
-                </hgroup>
-                    <p>Twinkle is the funniest unicorn in all of Rainbowland. She makes everyone laugh with her silly dances and funny jokes.
-                    <br/> Available in the following format:</p>
-                <ul>
-                    <li> E-book</li>
-                    <li> Paperback</li>
-                </ul>
-            </article>
-            <article>
-                  <figure>
-                      <img src="../images/book2.jpg" alt="The Great Gatsby" style="width:180px">
-                  </figure>
-                  <hgroup>
-                      <h2>The Great Gatsby</h2>
-                  </hgroup>
-                  <p>The Great Gatsby is a 1925 novel written by American author F. Scott Fitzgerald that follows a cast of characters living in the summer of 1922. 
-                  </p>
-                  <p>Available in the following format:
-                  </p>
-                <ul>
-                    <li> E-book</li>
-                    <li> Paperback</li>
-                </ul>
-            </article>
-            <article>
-                  <figure>
-                      <img src="../images/book3.jpg" alt="Alexander Hamilton" style="width:180px">
-                  </figure>
-                  <hgroup>
-                      <h2>Alexander Hamilton</h2>
-                  </hgroup>
-                  <p>lexander Hamilton is a 2004 biography of American statesman Alexander Hamilton, written by historian and biographer Ron Chernow. 
-                  </p>
-                  <p>Available in the following format:
-                  </p>
-                <ul>
-                    <li> E-book</li>
-                    <li> Paperback</li>
-                </ul>
-            </article>
-            </section>
-            <aside>
-				<section class="other-services">
-					<h2>Other Services</h2>
-					<a href="">Online Checkout</a>
-					<a href="">Tutoring</a>
-					<a href="">Online Room Reservation</a>
-					<a href="">Events Calendar</a>
-                </section>
-			</aside>
+                    </a>
+                </center>
+
+            </div>
+            <br/>
+
+            <nav class="navbar navbar-default" id="nav">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <div id="navbar" class="navbar-collapse collapse">
+                            <ul class="nav navbar-nav">
+                                <li><a href="../index.html">Home</a></li> 
+                                <li><a class="active" href="search.html">Search</a></li>
+                                <li><a href="borrow.html">Borrowing &amp; Fees</a></li> 
+                                <li><a href="login.html">My Account</a></li>
+                                <li><a href="about.html">About Us</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <br/>
+                        <form class="search-container" >
+                            <input type="text" id="search-bar" placeholder="Search...">
+                            <a href="search.html"><img class="search-icon" src="http://www.endlessicons.com/wp-content/uploads/2012/12/search-icon.png" alt="Search icon"></a>
+                        </form>
+                        <h4>Other Services</h4>
+                        <ul class="nav nav-pills nav-stacked">
+                            <li class="active"><a href="#">Online Checkout</a></li>
+                            <li><a href="#">Tutoring</a></li>
+                            <li><a href="#">Online Room Reservation</a></li>
+                            <li><a href="#">Events Calendar</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-8">
+                        <h2>Search the widest books collections! </h2>
+                        <br/>
+                        <h5><h4><strong>Suggested Books:</strong></h4></h5>
+                        <div>
+
+                            <section class="books">
+                                <article>
+                                    <figure>
+                                        <img src="../images/book1.jpg" alt="Twinkle" style="height:200px;">
+                                    </figure>
+                                    <hgroup>
+                                        <h2>Twinkle: The Funny Unicorn</h2>
+                                    </hgroup>
+                                    <p>Twinkle is the funniest unicorn in all of Rainbowland. She makes everyone laugh with her silly dances and funny jokes.
+                                        <br/> Available in the following format:</p>
+                                    <ul>
+                                        <li> E-book</li>
+                                        <li> Paperback</li>
+                                    </ul>
+                                    <p><a style="text-decoration:underline;" href="https://www.goodreads.com/book/show/25317051-twinkle-the-funny-unicorn" target="_blank">Read More about Twinkle!</a></p>
+                                </article>
+                                <article>
+                                    <figure>
+                                        <img src="../images/book2.jpg" alt="The Great Gatsby" style="height:220px">
+                                    </figure>
+                                    <hgroup>
+                                        <h2>The Great Gatsby</h2>
+                                    </hgroup>
+                                    <p>The Great Gatsby is a 1925 novel written by American author F. Scott Fitzgerald that follows a cast of characters living in the summer of 1922. 
+                                    </p>
+                                    <p>Available in the following format:
+                                    </p>
+                                    <ul>
+                                        <li> E-book</li>
+                                        <li> Paperback</li>
+                                    </ul>
+                                    <p><a style="text-decoration:underline;" href="https://www.vanityfair.com/news/2000/05/hitchens200005" target="_blank">Read More about The Great Gatsby!</a></p>
+                                </article>
+                                <article>
+                                    <figure>
+                                        <img src="../images/book3.jpg" alt="Alexander Hamilton" style="height:220px">
+                                    </figure>
+                                    <hgroup>
+                                        <h2>Alexander Hamilton</h2>
+                                    </hgroup>
+                                    <p>lexander Hamilton is a 2004 biography of American statesman Alexander Hamilton, written by historian and biographer Ron Chernow. 
+                                    </p>
+                                    <p>Available in the following format:
+                                    </p>
+                                    <ul>
+                                        <li> E-book</li>
+                                        <li> Paperback</li>
+                                    </ul>
+                                    <p><a style="text-decoration:underline;" href="https://www.biography.com/political-figure/alexander-hamilton" target="_blank">Read More about Alexander Hamilton!</a></p>
+                                </article>
+
+                            </section>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br/>
+            <footer class="page-footer font-small blue" style="margin-bottom:0">
+                <div class="footer-copyright text-center py-3">
+                    <p><p>Contact us
+                    <br/> Email: contact@pblib.org
+                    <br/> Phone: (777) 777-9900
+                    <br/> Address: 300 W Briarcliff Rd, Bolingbrook, IL 60440
+                    <br/>
+                    &copy; 2019 All Rights Reserved <em>The Pebble Library</em> 
+                    </p>
+                </div>
+            </footer>
+
         </div>
-        
-        <footer class="search-footer">
-            <p>Contact us
-                <br/> Email: contact@pblib.org
-                <br/> Phone: (777) 777-9900
-                <br/> Address: 300 W Briarcliff Rd, Bolingbrook, IL 60440
-                <br/>
-                &copy; 2019 All Rights Reserved <em>The Pebble Library</em> 
-            </p>
-            
-        </footer>
-        
+
     </body>
 </html>
