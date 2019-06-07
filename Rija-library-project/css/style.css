@@ -1,9 +1,7 @@
 body{
     font-family: 'Roboto', sans-serif !important;
     /* Will be changing to this "Roboto", sans-serif;*/
-    background: #667db6;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
     line-height: 1.4em; /*space between lines of text on a page*/
     margin: 0px;
 }
@@ -12,49 +10,67 @@ body{
     width: 1200px; 
 }
 .navbar {
-    min-height: 90px;
+    min-height: 80px;
+    text-align: center;
+    background-color: #5bc0de !important;
+    color: white !important;
+    border: 0px !important;
 }
 
 .navbar-brand {
     padding: 0 15px;
     height: 80px;
     line-height: 80px;
-}
-.nav .navbar-nav {
-    display: inline-block;
-    float: none;
-}
-
-.navbar-collapse {
     text-align: center;
+
+}
+@media (min-width: 768px) {
+    .navbar .navbar-nav {
+        display: inline-block;
+        float: none;
+        vertical-align: top;
+        background-color: #5bc0de;
+        color: white !important;
+        border: 0px !important;
+    }
+
+    .navbar .navbar-collapse {
+        text-align: center;
+        color: white !important;
+        border: 0px !important;
+    }
 }
 
 .navbar-toggle {
     /* (80px - button height 34px) / 2 = 23px */
     margin-top: 23px;
     padding: 9px 10px !important;
-    background-color: white !important;
+    border: 2px solid lightblue !important;
 }
 
-@media (max-width: 858px) {
+@media (max-width: 768px) {
     .navbar-nav > li > a {
         /* (80px - line-height of 27px) / 2 = 26.5px */
         padding-top: 26.5px;
         padding-bottom: 26.5px;
         line-height: 27px;
     }
+    .nav-stacked{
+        width: 600px;
+    }
+
 }
 #nav {
-    background-color: steelblue;
+    background-color: #5bc0de;
     list-style-type: none;
     overflow: hidden;
     margin: 0;
     padding: 0;
-    /*  text-align: center;*/
+    text-align: center;
 }
 
 #nav li {
-    padding-right: 85px;
+    /*    padding-right: 65px;*/
     margin-left: 35px;
     text-align: center;
 }
@@ -67,6 +83,7 @@ body{
     letter-spacing: normal;
     line-height: 1.3em;
     color: white;
+    text-align: center;
 }
 
 #nav a:hover {
@@ -84,12 +101,13 @@ body{
     background-color: white;
     color: black;
 }
+
 .search-container{
-    width: 200px;
+    width: 360px;
 }
 
 input#search-bar{
-    width: 200px;;
+    width: 360px;;
     height: 45px;
     padding: 0 20px;
     font-size: 1rem;
@@ -106,14 +124,17 @@ input#search-bar{
     right: -10px;
 }
 header{
-    margin: 50px;
-    height: 35px;
+    background: #667db6;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6); 
+    height: 100px;
 }
 .headingone{
     font-family: 'Barrio';
-    font-size: 50px;
+    font-size: 60px;
     text-decoration: none;
-    color: brown;
+    color: white;
+    margin-top: 300px !important;
 }
 a:hover{
     text-decoration: none !important;
@@ -121,16 +142,15 @@ a:hover{
 footer{
     color: white !important;
     text-align: center;
-    background: steelblue !important;
+    background: #667db6;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6); 
     padding: 0.5rem;
 
 }
-.search-footer{
-    margin-top: 900px;
-}
 
 #login {
-    margin: 10px;
+    margin: 3px;
     font-family: 'Roboto', sans-serif;
 }
 hr{
@@ -146,8 +166,7 @@ input[type=text], input[type=password] {
     box-sizing: border-box;
 }
 section.books {
-    float: left; 
-    width: 700px;
+    width: 670px;
 }
 article {
     clear: both; 
@@ -155,17 +174,13 @@ article {
     width: 100%;
 }
 hgroup {
-    margin-top: 40px;
+    margin-top: 20px;
 }
 figure {
     float: left;
-    width: 290px;
+    width: 190px;
     padding: 5px;
-    padding: 7px;
 } 
-figcaption {
-    font-size: 90%;
-    text-align: left;}
 
 aside {
     width: 210px;
@@ -184,6 +199,193 @@ aside section a:hover {
     color: steelblue;
     background-color: lightcyan;
 }
-img.image-center{
-    border: 15px solid steelblue;
+img.img-circle{
+    border: 6px solid #5bc0de;
+    -webkit-animation-duration: 5s;
+    animation-duration: 5s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+@-webkit-keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+@keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+.fadeIn {
+    -webkit-animation-name: fadeIn;
+    animation-name: fadeIn;
+}
+.footer-distributed{
+    background-color: #292c2f;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    font: bold 16px sans-serif;
+
+    padding: 55px 50px;
+    margin-top: 80px;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+    display: inline-block;
+    vertical-align: top;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left{
+    width: 40%;
+}
+
+/* The company logo */
+
+.footer-distributed h3{
+    color:  #ffffff;
+    font: normal 36px 'Barrio';
+    margin: 0;
+}
+
+.footer-distributed h3 span{
+    color:  #5383d3;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links{
+    color:  #ffffff;
+    margin: 20px 0 12px;
+    padding: 0;
+}
+
+.footer-distributed .footer-links a{
+    display:inline-block;
+    line-height: 1.8;
+    text-decoration: none;
+    color:  inherit;
+}
+
+.footer-distributed .footer-company-name{
+    color:  white;
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0;
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-center{
+    width: 35%;
+}
+
+.footer-distributed .footer-center i{
+    background-color:  #33383b;
+    color: #ffffff;
+    font-size: 25px;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 42px;
+    margin: 10px 15px;
+    vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope{
+    font-size: 17px;
+    line-height: 38px;
+}
+
+.footer-distributed .footer-center p{
+    display: inline-block;
+    color: #ffffff;
+    vertical-align: middle;
+    margin:0;
+}
+
+.footer-distributed .footer-center p span{
+    display:block;
+    font-weight: normal;
+    font-size:14px;
+    line-height:2;
+}
+
+.footer-distributed .footer-center p a{
+    color:  #5383d3;
+    text-decoration: none;;
+}
+
+
+/* Footer Right */
+
+.footer-distributed .footer-right{
+    width: 20%;
+}
+
+.footer-distributed .footer-company-about{
+    line-height: 20px;
+    color:  white;
+    font-size: 13px;
+    font-weight: normal;
+    margin: 0;
+}
+
+.footer-distributed .footer-company-about span{
+    display: block;
+    color:  #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons{
+    margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a{
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    background-color:  #33383b;
+    border-radius: 2px;
+
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 35px;
+
+    margin-right: 3px;
+    margin-bottom: 5px;
+}
+
+/* If you don't want the footer to be responsive, remove these media queries */
+
+@media (max-width: 768px) {
+
+    .footer-distributed{
+        font: bold 14px;
+    }
+
+    .footer-distributed .footer-left,
+    .footer-distributed .footer-center,
+    .footer-distributed .footer-right{
+        display: block;
+        width: 100%;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+
+    .footer-distributed .footer-center i{
+        margin-left: 0;
+    }
+
 }
