@@ -1,5 +1,5 @@
 body{
-    font-family: 'Roboto', sans-serif !important;
+    font: 16px 'Roboto', sans-serif !important;
     /* Will be changing to this "Roboto", sans-serif;*/
 
     line-height: 1.4em; /*space between lines of text on a page*/
@@ -18,7 +18,7 @@ body{
 }
 
 .navbar-brand {
-    padding: 0 15px;
+    padding: 0 10px;
     height: 80px;
     line-height: 80px;
     text-align: center;
@@ -70,8 +70,8 @@ body{
 }
 
 #nav li {
-    /*    padding-right: 65px;*/
-    margin-left: 35px;
+    padding-left: 45px;
+    margin-left: 80px;
     text-align: center;
 }
 
@@ -127,11 +127,11 @@ header{
     background: #667db6;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6); 
-    height: 100px;
+    height: 80px;
 }
 .headingone{
     font-family: 'Barrio';
-    font-size: 60px;
+    font-size: 40px;
     text-decoration: none;
     color: white;
     margin-top: 300px !important;
@@ -150,8 +150,8 @@ footer{
 }
 
 #login {
-    margin: 3px;
-    font-family: 'Roboto', sans-serif;
+/*    margin: 3px;*/
+    font-family: 'Roboto', sans-serif !important;
 }
 hr{
     border: 3px solid skyblue !important;
