@@ -1,7 +1,5 @@
 body{
     font: 16px 'Roboto', sans-serif !important;
-    /* Will be changing to this "Roboto", sans-serif;*/
-
     line-height: 1.4em; /*space between lines of text on a page*/
     margin: 0px;
 }
@@ -149,10 +147,6 @@ footer{
 
 }
 
-#login {
-/*    margin: 3px;*/
-    font-family: 'Roboto', sans-serif !important;
-}
 hr{
     border: 3px solid skyblue !important;
     display: block;
