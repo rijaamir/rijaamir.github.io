@@ -2,6 +2,15 @@
 /* CSS Document */
 
 
+body{
+	font-family: 'Cabin', sans-serif;
+}
+
+h1, h2, h3, h3, h4, h5, h6{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+}
+
 .bg-dark{
 	background-color: #800080 !important;
 }
@@ -74,4 +83,10 @@
 
 .align-items{
 	text-align: center;
+}
+
+.accordion-button:not(.collapsed) {
+    color: #ffffff;
+    background-color: #006680;
+    box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%);
 }
