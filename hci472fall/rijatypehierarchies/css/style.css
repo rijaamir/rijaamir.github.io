@@ -1,0 +1,254 @@
+html {
+  font-size: 100%; /*16px*/
+} 
+
+body {
+  margin: 0;
+  font-family: pt-sans-pro, sans-serif;
+  font-weight: 400;
+  font-weight: normal;
+  background-color: #fffffa;
+}
+
+.bg-dark{
+  background-color: #620080 !important;
+}
+.bg-header-dark{
+  background-color: #000000;
+  /*opacity: 0.9;*/
+  background-image: url("../img/typography.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.r-page-heading{
+  text-transform: uppercase;
+}
+
+.text-container{
+  max-width: 1000px;
+}
+
+.r-front-text{
+  padding-top: 25px;
+}
+
+.typename{
+  color: #8C0740;
+}
+
+.r-typebasestyle li{
+  list-style: none;
+  font-style: normal;
+}
+
+.r-text{
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.btn-primary{
+  background-color: #620080 !important;
+  border-style: none;
+}
+
+.btn-primary:hover{
+  background-color: #8C0740 !important;
+  font-weight: bold;
+}
+
+.r-footer{
+  background-color: #620080;
+  margin-top: 40px;
+  height: 60px;
+  color: #ffffff;
+  font-size: 0.8rem;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.r-solid-line{
+  color: #6b1585;
+}
+
+
+
+/*TYPE HIERARCHY 1 STYLING*/
+
+#r-giulia-H1{
+  font-family: giulia, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 3.157rem;
+}
+
+#r-giulia-H2{
+  font-family: giulia, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2.369rem;
+}
+
+#r-giulia-H3{
+  font-family: giulia, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.777rem;
+}
+
+#r-giulia-H4{
+  font-family: giulia, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.333rem;
+}
+
+#r-forma-body{
+  font-family: forma-djr-micro, sans-serif;;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1rem;
+}
+
+#r-forma-emphasis{
+  font-family: forma-djr-micro, sans-serif;;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 1rem;
+  color:#566d8C;
+}
+
+#r-forma-link a{
+  font-family: forma-djr-micro, sans-serif;;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1rem;
+  color: #9551e8;
+  text-decoration: underline;
+}
+
+#r-forma-link a:hover{
+  color: #8100a8;
+  text-decoration: none;
+}
+
+/*TYPE HIERARCHY 2 STYLING*/
+
+#r-hoss-H1{
+  font-family: hoss-round, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 3.157rem;
+}
+
+#r-hoss-H2{
+  font-family: hoss-round, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2.369rem;
+}
+
+#r-hoss-H3{
+  font-family: hoss-round, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.777rem;
+}
+
+#r-hoss-H4{
+  font-family: hoss-round, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.333rem;
+}
+
+#r-hoss-body{
+  font-family: hoss-round, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1rem;
+}
+
+#r-hoss-emphasis{
+  font-family: hoss-round, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 1rem;
+  color:#566d8C;
+}
+
+#r-hoss-link a{
+  font-family: hoss-round, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1rem;
+  color: #9551e8;
+  text-decoration: underline;
+}
+
+#r-hoss-link a:hover{
+  color: #8100a8;
+  text-decoration: none;
+}
+
+
+/*TYPE HIERARCHY 3 STYLING*/
+#r-caslon-H1{
+  font-family: adobe-caslon-pro, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 3.157rem;
+}
+
+#r-caslon-H2{
+  font-family: adobe-caslon-pro, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2.369rem;
+}
+
+#r-caslon-H3{
+  font-family: adobe-caslon-pro, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.777rem;
+}
+
+#r-caslon-H4{
+  font-family: adobe-caslon-pro, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.333rem;
+}
+
+#r-grotesque-body{
+  font-family: brandon-grotesque, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1rem;
+}
+
+#r-grotesque-emphasis{
+  font-family: brandon-grotesque, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 1rem;
+  color:#566d8C;
+}
+
+#r-grotesque-link a{
+  font-family: brandon-grotesque, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1rem;
+  color: #9551e8;
+  text-decoration: underline;
+}
+
+#r-grotesque-link a:hover{
+  color: #8100a8;
+  text-decoration: none;
+}
