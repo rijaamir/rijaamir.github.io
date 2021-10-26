@@ -76,7 +76,7 @@ if (reversed == null) { reversed = false; }
 	this.instance = new lib.UI_Logo("synched",0);
 	this.instance.setTransform(400,476);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance).wait(6).to({startPosition:0},0).to({regX:0.5,regY:0.1,scaleX:1.2854,scaleY:0.7143,y:470.35},3,cjs.Ease.cubicIn).to({regX:0.7,scaleX:0.657,scaleY:1.1428,x:400.05,y:420.05},7,cjs.Ease.quintOut).to({regX:0.5,scaleX:1.2854,scaleY:0.7143,x:400,y:470.35},7,cjs.Ease.cubicIn).to({regX:0,regY:0,scaleX:1,scaleY:1,y:476},6,cjs.Ease.quintOut).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(6).to({startPosition:0},0).to({regX:0.6,regY:0.1,scaleX:1.1426,scaleY:0.7143,x:400.7,y:470.35},3,cjs.Ease.cubicIn).to({regX:0.7,scaleX:0.7141,scaleY:1.1428,x:400.45,y:420.05},7,cjs.Ease.cubicOut).to({regX:0.6,scaleX:1.1426,scaleY:0.7143,x:400.7,y:470.35},7,cjs.Ease.cubicIn).to({regX:0,regY:0,scaleX:1,scaleY:1,x:400,y:476},6,cjs.Ease.cubicOut).wait(1));
 
 	// Dock
 	this.shape = new cjs.Shape();
@@ -104,7 +104,7 @@ lib.properties = {
 	color: "#464777",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/bounceinteractive_atlas_1.png?1635131151319", id:"bounceinteractive_atlas_1"}
+		{src:"images/bounceinteractive_atlas_1.png", id:"bounceinteractive_atlas_1"}
 	],
 	preloads: []
 };
