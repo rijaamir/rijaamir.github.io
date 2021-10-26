@@ -10,9 +10,25 @@ body {
   background-color: #ffffff;
 }
 
-.bg-dark{
-  background-color: #282525 !important;
+.bg-light{
+  background-color: #feefe2 !important;
+  
 }
+
+.navbar-light .navbar-nav .nav-link{
+  color: #434244 !important;
+  font-size: 1.21rem;
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+  color: #d1708b !important;
+}
+
+.navbar-light .navbar-nav .nav-link.active{
+  font-weight: bold;
+  color: #d1708b !important;
+}
+
 .bg-header-dark{
   background-color: #000000;
   /*opacity: 0.9;*/
@@ -37,7 +53,7 @@ body {
 }
 
 .typename{
-  color: #8C0740;
+  color: #d1708b;
 }
 
 .r-typebasestyle li{
@@ -56,16 +72,16 @@ body {
 }
 
 .btn-primary:hover{
-  background-color: #8C0740 !important;
+  background-color: #d1708b !important;
   font-weight: bold;
 }
 
 .r-footer{
-  background-color: #282525;
+  background-color: #feefe2;
   margin-top: 40px;
   height: 60px;
-  color: #ffffff;
-  font-size: 0.8rem;
+  color: #000000;
+  font-size: 1rem;
   text-align: center;
   padding-top: 20px;
 }
@@ -126,12 +142,12 @@ body {
   font-weight: 400;
   font-style: normal;
   font-size: 1rem;
-  color: #9551e8;
+  color: #d1708b;
   text-decoration: underline;
 }
 
 #r-forma-link a:hover{
-  color: #8100a8;
+  color: #c04b77;
   text-decoration: none;
 }
 
@@ -185,12 +201,12 @@ body {
   font-weight: 400;
   font-style: normal;
   font-size: 1rem;
-  color: #9551e8;
+  color: #d1708b;
   text-decoration: underline;
 }
 
 #r-hoss-link a:hover{
-  color: #8100a8;
+  color: #c04b77;
   text-decoration: none;
 }
 
@@ -244,11 +260,11 @@ body {
   font-weight: 400;
   font-style: normal;
   font-size: 1rem;
-  color: #9551e8;
+  color: #d1708b;
   text-decoration: underline;
 }
 
 #r-grotesque-link a:hover{
-  color: #8100a8;
+  color: #c04b77;
   text-decoration: none;
 }
