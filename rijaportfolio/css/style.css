@@ -117,6 +117,15 @@ body {
 .text-container{
   max-width: 1000px;
 }
+
+.cards-text-container{
+  max-width: 1000px;
+}
+
+.project-text-container{
+  max-width: 1000px;
+}
+
 .process-text-container {
   padding-top: 55px;
   padding-bottom: 45px;
@@ -127,6 +136,25 @@ body {
   background-color: #FFFAF4;
 }
 
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 750px) and (max-width: 834px) {
+
+  .project-text-container{
+    padding-left: 162px;
+    padding-right: 160px;
+  }
+
+  .process-text-container {
+    padding-left: 162px;
+    padding-right: 160px;
+  }
+
+  .cards-text-container{
+    /*max-width: 200px;*/
+    padding-left: 162px;
+    padding-right: 160px;
+  }
+}
 /* CARD STYLING */
 
 .card-link{
